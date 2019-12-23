@@ -3,6 +3,7 @@
 ########
 # Plot 3
 ########
+par(mfcol = c(1,1))
 y1=as.numeric(as.character.factor(dat$Sub_metering_1))
 y2=as.numeric(as.character.factor(dat$Sub_metering_2))
 y3=dat$Sub_metering_3

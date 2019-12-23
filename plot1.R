@@ -28,6 +28,7 @@ dat$DateTime <- as.POSIXct(dat$DateTime,
 ########
 # Plot 1
 ########
+par(mfcol = c(1,1))
 hist(as.numeric(as.character.factor(dat$Global_active_power)), 
      col = "red", main = "Global Active Power", 
      xlab = "Global Active power (kilowatts)")
